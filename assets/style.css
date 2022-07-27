@@ -41,5 +41,113 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 30px;
 }
+.about-me{
+    color: cornflowerblue;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 50px;
+    
+}
+.self-description{
+    width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: auto;
+    background-color: rgb(228, 134, 178);
+}
+.self-description img{
+    max-height: 200px;
+    float: right;
+    margin: right;
+    background-color: rgb(228, 134, 178);
+}.self-description p{
+    padding: 35px;
+    float: left;
+    width: 65%; 
+    text-align: left;
+    background-color: rgb(228, 134, 178);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 
+}
 
+.my-work{
+    color: cornflowerblue;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.Projects div {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: auto;
+    background-color: rgb(228, 134, 178);
+}
+.Projects p{
+    background-color: rgb(228, 134, 178);
+
+}
+.contact{
+    color: cornflowerblue;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.My-Info img{
+    max-height: 100px;
+    float: right;
+    margin: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.My-Info {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: auto;
+    background-color: rgb(228, 134, 178);
+    
+}
+
+.My-Info p, .My-Info address {
+    margin: left;
+    float: left;
+    width: 65%; 
+    background-color: rgb(228, 134, 178);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+.My-Info address{
+    font-size: 20;
+}
+.My-Info address a {
+    background-color: rgb(228, 134, 178);
+
+}
+.Done-Work {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: auto;
+    background-color: rgb(228, 134, 178);
+    
+}
+.Done-Work p{
+    display: inline-block;
+    background-color: rgb(228, 134, 178);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.resume{
+    padding-top: 100px;
+    color: cornflowerblue;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+footer div {
+    display: flex;
+    line-height: 1.5;
+    text-align: left;
+    color: #39a6b2;
+    font-size: 15px;}
