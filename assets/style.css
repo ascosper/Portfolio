@@ -53,13 +53,15 @@ header nav ul li a {
     margin: 0 auto 30px auto;
     overflow: auto;
     background-color: rgb(228, 134, 178);
+    
 }
 .self-description img{
     max-height: 200px;
     float: right;
     margin: right;
     background-color: rgb(228, 134, 178);
-}.self-description p{
+}
+.self-description p{
     padding: 35px;
     float: left;
     width: 65%; 
@@ -80,11 +82,33 @@ header nav ul li a {
     width: 900px;
     margin: 0 auto 30px auto;
     overflow: auto;
-    background-color: rgb(228, 134, 178);
-}
-.Projects p{
-    background-color: rgb(228, 134, 178);
 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horiseon a img{
+    width: 400px;
+    height: 200px;
+    border: solid cornflowerblue 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.run-buddy a img{
+    width: 400px;
+    height: 200px;
+    border: solid cornflowerblue 3px;
+}
+
+.future-project a img{
+    width: 400px;
+    height: 200px;
+    border: solid cornflowerblue 3px;
 }
 .contact{
     color: cornflowerblue;
