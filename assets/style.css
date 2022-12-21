@@ -106,6 +106,13 @@ header nav ul li a {
     height: 200px;
     border: solid cornflowerblue 3px;
 }
+
+.HelpfulCommuntiy a img{
+    width: 400px;
+    height: 200px;
+    border: solid cornflowerblue 3px;
+}
+
 .contact{
     color: cornflowerblue;
     text-align: left;
